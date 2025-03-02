@@ -1,0 +1,5 @@
+---
+ssl_cert_dir: "/data/unifi-core/config/"
+ssl_backup_dir: "{{ ssl_cert_dir }}/backup/"
+vault_cert_user: "letsencrypt"
+vault_cert_algo: "rsa2048"
