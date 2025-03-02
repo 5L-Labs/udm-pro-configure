@@ -1,0 +1,3 @@
+- name: Call install_certs.yml
+  include_tasks: install_certs.yml
+  tags: udm-configure
